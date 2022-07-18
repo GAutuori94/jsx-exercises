@@ -1,12 +1,8 @@
 import React from 'react';
-import { HelloWorld } from './Jsx-01';
+import ReactDOM  from 'react-dom';
+import App from './App';
 
-export default class App extends React.Component {
-    render () {
-        return (
-            <div>
-                <HelloWorld />
-            </div>
-        )
-    }
-}
+
+const root = ReactDOM.createRoot(document.querySelector('#root'));
+
+root.render(<App />, root);
