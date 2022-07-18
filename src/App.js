@@ -1,7 +1,7 @@
 import React from 'react';
 import { HelloWorld } from './Jsx-01';
 
-export class App extends React.Component {
+export default class App extends React.Component {
     render () {
         return (
             <div>
@@ -10,5 +10,3 @@ export class App extends React.Component {
         )
     }
 }
-
-export default App
